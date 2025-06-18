@@ -1,0 +1,135 @@
+ body {
+      background-color: #262626;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #111;
+      padding: 20px 0;
+      text-align: center;
+      border-bottom: 1px solid #444;
+    }
+
+    .header h1 {
+      max-height: 10px;
+      margin-top: -5px;
+      transition: color 0.3s ease;
+      cursor: pointer;
+
+    }
+
+    .header h1:hover {
+  color: #00ff99;
+}
+
+    .container {
+  margin-top: 39px; /* Header se distance */
+  margin-bottom: 60px; /* Footer se distance */
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #111;
+  border-radius: 10px;
+  padding: 30px 25px;
+}
+
+    .notice {
+      background-color: #1f1f1f;
+      color: #00ff99;
+      padding: 12px 18px;
+      border-radius: 6px;
+      margin-bottom: 30px;
+      font-size: 16px;
+      text-align: start;
+    }
+
+    .stream-box {
+      background-color: #1f1f1f;
+      border: 1px solid #2c2c2c;
+      padding: 18px 20px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.2s ease;
+      height: 40px;
+    }
+
+    .stream-box:hover {
+      background-color: #2a2a2a;
+      cursor: pointer;
+    }
+
+    .stream-name {
+      font-size: 19px;
+      font-weight: 600;
+    }
+
+    .live-badge {
+      color: #00ff99;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .features {
+      margin-top: -40px;
+      padding-top: 20px;
+    }
+
+    .features h3 {
+      color: #00ff99;
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    .features strong {
+      color: #00ff99;
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+
+    .features p {
+      color: #cccccc;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+.footer {
+  width: 100%;
+  background-color: #111; /* Dark background */
+  color: white;            /* White text */
+  text-align: center;      /* Center align text */
+  padding: 20px 0;         /* Space inside footer */
+  font-size: 14px;         /* Text size */
+  position: relative;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #444; /* Clean top border line */
+}
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #444;
+      text-align: center;
+    }
+    th {
+      background-color: #111;
+      color: #00ccff;
+    }
+    td {
+      background-color: #1c1c1c;
+    }
